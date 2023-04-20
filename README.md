@@ -28,6 +28,7 @@ With this strategy, the flights of each endpoint is cached and reload only when 
 
 For the providers management, when a new endpoint is added, the recurrent task will detect it and load it to global list of flights. If it is removed, the cached global list of flights is cleared along with the list of flights for the endpoint being removed, and this ensures that the recurrent task will update the list of flights without needing to fetch data from the other endpoints.
 
+The service also have a method called loadFlightsOnRequest that allows enabling the flight providers to be checked at the request time, this allows getting updated flights faster than 30 seconds, but may sacrifice response time if any provider request is needed and it takes time to respond.
 
 ## Installation
 
