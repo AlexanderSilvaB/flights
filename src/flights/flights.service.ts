@@ -2,7 +2,7 @@
  * @Author: Alexander Silva Barbosa
  * @Date:   2023-04-19 09:15:30
  * @Last Modified by:   Alexander Silva Barbosa
- * @Last Modified time: 2023-04-20 01:25:58
+ * @Last Modified time: 2023-04-20 15:33:35
  */
 
 const URL = require("url").URL;
@@ -18,16 +18,18 @@ import { EndpointFlight } from './interfaces/endpoint_flights.interface';
 @Injectable()
 export class FlightsService {
 
-    private readonly CACHE_KEY = 'CACHE_';
-    private readonly FLIGHTS_KEY = 'FLIGHTS';
-    private readonly EXPIRATION = 60*60*1000;
+    private readonly CACHE_KEY: string = 'CACHE_';
+    private readonly FLIGHTS_KEY: string = 'FLIGHTS';
+    private readonly EXPIRATION: number = 60*60*1000;
 
-    private readonly logger = new Logger(FlightsService.name);
+    private readonly logger: Logger = new Logger(FlightsService.name);
 
     private readonly flightEndpoints: Set<string> = new Set<string>([
         "https://coding-challenge.powerus.de/flight/source1",
         "https://coding-challenge.powerus.de/flight/source2"
     ]);
+
+    private shouldLoadFlightsOnRequest: boolean = false;
 
     constructor(@Inject(CACHE_MANAGER) private cacheManager: Cache) {
         
@@ -44,6 +46,9 @@ export class FlightsService {
     }
 
     async findAll(): Promise<Flight[]> {
+        if(this.shouldLoadFlightsOnRequest)
+            await this.loadFlights();
+            
         const flights = await this.getData(this.FLIGHTS_KEY)
         if(flights)
             return flights;
@@ -89,6 +94,10 @@ export class FlightsService {
         
         }
         await this.flattenFlights(refreshed, endpointFlights)
+    }
+
+    loadFlightsOnRequest(enabled: boolean){
+        this.shouldLoadFlightsOnRequest = enabled;
     }
 
     private async getData(id: string=''): Promise<any>{

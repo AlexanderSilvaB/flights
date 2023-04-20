@@ -2,7 +2,7 @@
  * @Author: Alexander Silva Barbosa
  * @Date:   2023-04-19 09:15:30
  * @Last Modified by:   Alexander Silva Barbosa
- * @Last Modified time: 2023-04-20 01:26:41
+ * @Last Modified time: 2023-04-20 15:35:08
  */
 
 import { Test, TestingModule } from '@nestjs/testing';
@@ -40,6 +40,13 @@ describe('FlightsService', () => {
       await expect(service.findAll()).resolves.toBeInstanceOf(Array);
 
       await service.loadFlights();
+      await expect(service.findAll()).resolves.toBeInstanceOf(Array);
+    });
+  });
+
+  describe('loadingOnRequest', () => {
+    it('return the list of all flights loading it at request time', async () => {
+      service.loadFlightsOnRequest(true)
       await expect(service.findAll()).resolves.toBeInstanceOf(Array);
     });
   });
