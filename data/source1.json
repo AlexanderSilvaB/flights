@@ -1,0 +1,124 @@
+{
+    "flights": [
+      {
+        "flight_number": 1919,
+        "origin_name": "Dunnavant",
+        "destination_name": "Noblestown",
+        "departure_date_time_utc": "2014-01-20T08:28:07 +02:00",
+        "arrival_date_time_utc": "2014-02-28T02:15:10 +03:00",
+        "duration": 10.8
+      },
+      {
+        "flight_number": 4566,
+        "origin_name": "Hampstead",
+        "destination_name": "Windsor",
+        "departure_date_time_utc": "2020-11-10T01:05:49 +03:00",
+        "arrival_date_time_utc": "2014-10-21T05:43:17 +02:00",
+        "duration": 8.5
+      },
+      {
+        "flight_number": 3150,
+        "origin_name": "Chesapeake",
+        "destination_name": "Glenbrook",
+        "departure_date_time_utc": "2023-05-29T05:03:50 +03:00",
+        "arrival_date_time_utc": "2018-12-21T05:04:35 +02:00",
+        "duration": 2.2
+      },
+      {
+        "flight_number": 6277,
+        "origin_name": "Morgandale",
+        "destination_name": "Falconaire",
+        "departure_date_time_utc": "2017-08-27T08:41:47 +03:00",
+        "arrival_date_time_utc": "2020-02-16T09:41:19 +03:00",
+        "duration": 7.2
+      },
+      {
+        "flight_number": 1237,
+        "origin_name": "Boonville",
+        "destination_name": "Ripley",
+        "departure_date_time_utc": "2017-07-09T12:04:19 +03:00",
+        "arrival_date_time_utc": "2023-03-08T06:43:21 +03:00",
+        "duration": 8.1
+      },
+      {
+        "flight_number": 5197,
+        "origin_name": "Keller",
+        "destination_name": "Walton",
+        "departure_date_time_utc": "2018-11-18T08:24:50 +02:00",
+        "arrival_date_time_utc": "2014-04-24T05:37:25 +03:00",
+        "duration": 6.4
+      },
+      {
+        "flight_number": 3797,
+        "origin_name": "Titanic",
+        "destination_name": "Belvoir",
+        "departure_date_time_utc": "2015-11-03T06:46:11 +02:00",
+        "arrival_date_time_utc": "2014-05-29T01:27:34 +03:00",
+        "duration": 11.3
+      },
+      {
+        "flight_number": 5330,
+        "origin_name": "Brantleyville",
+        "destination_name": "Lewis",
+        "departure_date_time_utc": "2021-05-14T01:16:51 +03:00",
+        "arrival_date_time_utc": "2016-05-18T06:40:26 +03:00",
+        "duration": 8.2
+      },
+      {
+        "flight_number": 1422,
+        "origin_name": "Wedgewood",
+        "destination_name": "Sanders",
+        "departure_date_time_utc": "2017-04-09T08:57:05 +03:00",
+        "arrival_date_time_utc": "2018-03-10T05:17:03 +03:00",
+        "duration": 11.3
+      },
+      {
+        "flight_number": 2033,
+        "origin_name": "Coral",
+        "destination_name": "Fannett",
+        "departure_date_time_utc": "2019-03-19T08:37:50 +03:00",
+        "arrival_date_time_utc": "2014-08-12T02:43:16 +03:00",
+        "duration": 12.3
+      },
+      {
+        "flight_number": 7203,
+        "origin_name": "Farmers",
+        "destination_name": "Joes",
+        "departure_date_time_utc": "2020-10-13T12:43:40 +03:00",
+        "arrival_date_time_utc": "2015-02-20T03:11:52 +02:00",
+        "duration": 13.1
+      },
+      {
+        "flight_number": 9182,
+        "origin_name": "Carrsville",
+        "destination_name": "Southmont",
+        "departure_date_time_utc": "2014-04-30T04:02:51 +03:00",
+        "arrival_date_time_utc": "2021-10-02T12:49:39 +03:00",
+        "duration": 7.8
+      },
+      {
+        "flight_number": 2935,
+        "origin_name": "Woodruff",
+        "destination_name": "Motley",
+        "departure_date_time_utc": "2016-03-07T10:50:08 +03:00",
+        "arrival_date_time_utc": "2022-09-17T11:38:03 +03:00",
+        "duration": 11.9
+      },
+      {
+        "flight_number": 7844,
+        "origin_name": "Chaparrito",
+        "destination_name": "Fostoria",
+        "departure_date_time_utc": "2021-12-06T04:23:22 +03:00",
+        "arrival_date_time_utc": "2015-07-08T06:56:18 +03:00",
+        "duration": 6.9
+      },
+      {
+        "flight_number": 2440,
+        "origin_name": "Canterwood",
+        "destination_name": "Crumpler",
+        "departure_date_time_utc": "2023-02-12T01:42:37 +03:00",
+        "arrival_date_time_utc": "2021-01-27T11:01:03 +03:00",
+        "duration": 13
+      }
+    ]
+  }
