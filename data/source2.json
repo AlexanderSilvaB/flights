@@ -1,92 +1,344 @@
 {
   "flights": [
     {
-      "flight_number": 5788,
-      "origin_name": "Bynum",
-      "destination_name": "Bentonville",
-      "departure_date_time_utc": "2016-07-11T12:05:18 +03:00",
-      "arrival_date_time_utc": "2015-05-31T05:47:42 +03:00",
-      "duration": 10.9
+      "slices": [
+        {
+          "flight_number": 3802,
+          "origin_name": "Cumminsville",
+          "destination_name": "Hiko",
+          "departure_date_time_utc": "2018-10-13T05:38:27 +03:00",
+          "arrival_date_time_utc": "2019-07-16T06:10:10 +03:00",
+          "duration": 1.6
+        },
+        {
+          "flight_number": 9730,
+          "origin_name": "Omar",
+          "destination_name": "Norris",
+          "departure_date_time_utc": "2015-03-12T09:24:24 +03:00",
+          "arrival_date_time_utc": "2017-07-02T01:44:09 +03:00",
+          "duration": 6.7
+        }
+      ]
     },
     {
-      "flight_number": 4529,
-      "origin_name": "Lloyd",
-      "destination_name": "Wattsville",
-      "departure_date_time_utc": "2020-12-12T06:24:30 +03:00",
-      "arrival_date_time_utc": "2015-04-11T03:39:01 +03:00",
-      "duration": 8
+      "slices": [
+        {
+          "flight_number": 7086,
+          "origin_name": "Cressey",
+          "destination_name": "Jackpot",
+          "departure_date_time_utc": "2014-02-24T12:31:16 +03:00",
+          "arrival_date_time_utc": "2016-05-12T11:14:45 +03:00",
+          "duration": 3.7
+        },
+        {
+          "flight_number": 5058,
+          "origin_name": "Rodanthe",
+          "destination_name": "Bluffview",
+          "departure_date_time_utc": "2018-10-04T01:04:42 +03:00",
+          "arrival_date_time_utc": "2020-01-23T02:01:52 +03:00",
+          "duration": 8
+        }
+      ]
     },
     {
-      "flight_number": 8535,
-      "origin_name": "Westphalia",
-      "destination_name": "Ticonderoga",
-      "departure_date_time_utc": "2019-11-25T07:18:38 +03:00",
-      "arrival_date_time_utc": "2015-03-22T05:50:38 +03:00",
-      "duration": 13.3
+      "slices": [
+        {
+          "flight_number": 7579,
+          "origin_name": "Mappsville",
+          "destination_name": "Suitland",
+          "departure_date_time_utc": "2016-11-25T08:26:56 +02:00",
+          "arrival_date_time_utc": "2019-06-08T08:48:45 +03:00",
+          "duration": 12.9
+        },
+        {
+          "flight_number": 7807,
+          "origin_name": "Coultervillle",
+          "destination_name": "Loveland",
+          "departure_date_time_utc": "2017-07-24T03:18:40 +03:00",
+          "arrival_date_time_utc": "2018-11-18T09:27:14 +02:00",
+          "duration": 2.4
+        },
+        {
+          "flight_number": 7682,
+          "origin_name": "Graball",
+          "destination_name": "Fowlerville",
+          "departure_date_time_utc": "2015-10-12T12:20:30 +03:00",
+          "arrival_date_time_utc": "2017-01-14T07:11:00 +02:00",
+          "duration": 7.8
+        }
+      ]
     },
     {
-      "flight_number": 8870,
-      "origin_name": "Lydia",
-      "destination_name": "Hickory",
-      "departure_date_time_utc": "2015-08-07T02:29:02 +03:00",
-      "arrival_date_time_utc": "2021-04-11T07:58:59 +03:00",
-      "duration": 4.6
+      "slices": [
+        {
+          "flight_number": 3351,
+          "origin_name": "Levant",
+          "destination_name": "Ribera",
+          "departure_date_time_utc": "2020-07-11T12:40:14 +03:00",
+          "arrival_date_time_utc": "2020-04-29T05:44:02 +03:00",
+          "duration": 12.3
+        },
+        {
+          "flight_number": 2228,
+          "origin_name": "Summertown",
+          "destination_name": "Bordelonville",
+          "departure_date_time_utc": "2019-05-25T07:57:27 +03:00",
+          "arrival_date_time_utc": "2017-06-20T05:43:08 +03:00",
+          "duration": 9.1
+        }
+      ]
     },
     {
-      "flight_number": 5030,
-      "origin_name": "Iberia",
-      "destination_name": "Logan",
-      "departure_date_time_utc": "2022-09-10T06:41:58 +03:00",
-      "arrival_date_time_utc": "2018-06-27T02:32:13 +03:00",
-      "duration": 10.7
+      "slices": [
+        {
+          "flight_number": 5211,
+          "origin_name": "Machias",
+          "destination_name": "Wattsville",
+          "departure_date_time_utc": "2022-06-26T10:20:23 +03:00",
+          "arrival_date_time_utc": "2014-04-30T07:38:34 +03:00",
+          "duration": 6.9
+        }
+      ]
     },
     {
-      "flight_number": 9145,
-      "origin_name": "Kilbourne",
-      "destination_name": "Topaz",
-      "departure_date_time_utc": "2019-05-08T06:15:29 +03:00",
-      "arrival_date_time_utc": "2014-10-10T10:59:45 +03:00",
-      "duration": 5.5
+      "slices": [
+        {
+          "flight_number": 4586,
+          "origin_name": "Montura",
+          "destination_name": "Mulino",
+          "departure_date_time_utc": "2014-05-05T02:19:10 +03:00",
+          "arrival_date_time_utc": "2018-03-25T08:23:29 +03:00",
+          "duration": 6.7
+        },
+        {
+          "flight_number": 1319,
+          "origin_name": "Darbydale",
+          "destination_name": "Goldfield",
+          "departure_date_time_utc": "2020-10-20T04:08:08 +03:00",
+          "arrival_date_time_utc": "2014-01-02T03:35:02 +02:00",
+          "duration": 2.5
+        },
+        {
+          "flight_number": 4317,
+          "origin_name": "Cuylerville",
+          "destination_name": "Dexter",
+          "departure_date_time_utc": "2022-02-17T06:40:56 +03:00",
+          "arrival_date_time_utc": "2020-08-11T05:39:25 +03:00",
+          "duration": 12.1
+        }
+      ]
     },
     {
-      "flight_number": 9823,
-      "origin_name": "Blandburg",
-      "destination_name": "National",
-      "departure_date_time_utc": "2023-01-03T10:18:18 +03:00",
-      "arrival_date_time_utc": "2020-09-13T10:28:05 +03:00",
-      "duration": 8.8
+      "slices": [
+        {
+          "flight_number": 7267,
+          "origin_name": "Wilsonia",
+          "destination_name": "Tonopah",
+          "departure_date_time_utc": "2017-02-20T03:55:48 +03:00",
+          "arrival_date_time_utc": "2018-11-19T04:46:09 +02:00",
+          "duration": 12
+        },
+        {
+          "flight_number": 8816,
+          "origin_name": "Cade",
+          "destination_name": "Dahlen",
+          "departure_date_time_utc": "2022-01-17T07:57:57 +03:00",
+          "arrival_date_time_utc": "2020-12-16T08:12:05 +03:00",
+          "duration": 8.7
+        },
+        {
+          "flight_number": 8455,
+          "origin_name": "Clarktown",
+          "destination_name": "Drytown",
+          "departure_date_time_utc": "2021-02-01T12:36:06 +03:00",
+          "arrival_date_time_utc": "2020-04-10T11:43:54 +03:00",
+          "duration": 10.5
+        }
+      ]
     },
     {
-      "flight_number": 7070,
-      "origin_name": "Belmont",
-      "destination_name": "Summertown",
-      "departure_date_time_utc": "2014-03-10T09:15:53 +03:00",
-      "arrival_date_time_utc": "2017-04-29T07:19:50 +03:00",
-      "duration": 5.2
+      "slices": [
+        {
+          "flight_number": 8659,
+          "origin_name": "Clayville",
+          "destination_name": "Bannock",
+          "departure_date_time_utc": "2022-05-17T02:12:36 +03:00",
+          "arrival_date_time_utc": "2023-05-10T01:54:25 +03:00",
+          "duration": 9.9
+        },
+        {
+          "flight_number": 6593,
+          "origin_name": "Belgreen",
+          "destination_name": "Limestone",
+          "departure_date_time_utc": "2016-06-08T06:24:26 +03:00",
+          "arrival_date_time_utc": "2019-11-12T05:25:55 +03:00",
+          "duration": 0.7
+        }
+      ]
     },
     {
-      "flight_number": 6858,
-      "origin_name": "Eastvale",
-      "destination_name": "Salix",
-      "departure_date_time_utc": "2019-05-16T07:36:29 +03:00",
-      "arrival_date_time_utc": "2014-07-08T11:35:02 +03:00",
-      "duration": 14.4
+      "slices": [
+        {
+          "flight_number": 1930,
+          "origin_name": "Wilmington",
+          "destination_name": "Longoria",
+          "departure_date_time_utc": "2017-03-09T10:03:14 +03:00",
+          "arrival_date_time_utc": "2022-05-06T09:09:17 +03:00",
+          "duration": 11
+        },
+        {
+          "flight_number": 2906,
+          "origin_name": "Snelling",
+          "destination_name": "Guthrie",
+          "departure_date_time_utc": "2021-10-15T03:26:07 +03:00",
+          "arrival_date_time_utc": "2018-02-21T03:13:03 +03:00",
+          "duration": 12
+        }
+      ]
     },
     {
-      "flight_number": 8227,
-      "origin_name": "Jacksonwald",
-      "destination_name": "Johnsonburg",
-      "departure_date_time_utc": "2020-04-02T06:06:24 +03:00",
-      "arrival_date_time_utc": "2022-02-14T10:21:22 +03:00",
-      "duration": 8.1
+      "slices": [
+        {
+          "flight_number": 8356,
+          "origin_name": "Irwin",
+          "destination_name": "Mayfair",
+          "departure_date_time_utc": "2021-04-04T07:49:29 +03:00",
+          "arrival_date_time_utc": "2015-01-05T12:27:01 +02:00",
+          "duration": 3.6
+        },
+        {
+          "flight_number": 2040,
+          "origin_name": "Crawfordsville",
+          "destination_name": "Convent",
+          "departure_date_time_utc": "2022-12-07T07:10:06 +03:00",
+          "arrival_date_time_utc": "2022-02-11T01:03:45 +03:00",
+          "duration": 10
+        }
+      ]
     },
     {
-      "flight_number": 6510,
-      "origin_name": "Frystown",
-      "destination_name": "Turah",
-      "departure_date_time_utc": "2017-01-27T02:41:27 +02:00",
-      "arrival_date_time_utc": "2018-02-01T02:25:34 +02:00",
-      "duration": 11.6
+      "slices": [
+        {
+          "flight_number": 4418,
+          "origin_name": "Dellview",
+          "destination_name": "Yogaville",
+          "departure_date_time_utc": "2022-10-18T02:19:09 +03:00",
+          "arrival_date_time_utc": "2021-10-09T07:19:56 +03:00",
+          "duration": 8.9
+        },
+        {
+          "flight_number": 8466,
+          "origin_name": "Chamberino",
+          "destination_name": "Trucksville",
+          "departure_date_time_utc": "2021-06-05T11:21:15 +03:00",
+          "arrival_date_time_utc": "2019-10-11T08:28:51 +03:00",
+          "duration": 14.9
+        },
+        {
+          "flight_number": 8101,
+          "origin_name": "Moquino",
+          "destination_name": "Greensburg",
+          "departure_date_time_utc": "2018-12-26T01:58:26 +02:00",
+          "arrival_date_time_utc": "2015-03-08T04:06:22 +03:00",
+          "duration": 4.2
+        }
+      ]
+    },
+    {
+      "slices": [
+        {
+          "flight_number": 3316,
+          "origin_name": "Ivanhoe",
+          "destination_name": "Witmer",
+          "departure_date_time_utc": "2019-02-05T11:02:40 +02:00",
+          "arrival_date_time_utc": "2014-06-29T04:06:37 +03:00",
+          "duration": 5.5
+        },
+        {
+          "flight_number": 5750,
+          "origin_name": "Gambrills",
+          "destination_name": "Tecolotito",
+          "departure_date_time_utc": "2017-01-26T08:43:53 +02:00",
+          "arrival_date_time_utc": "2020-10-25T07:15:36 +03:00",
+          "duration": 3.9
+        },
+        {
+          "flight_number": 2711,
+          "origin_name": "Chestnut",
+          "destination_name": "Masthope",
+          "departure_date_time_utc": "2022-04-04T06:29:08 +03:00",
+          "arrival_date_time_utc": "2020-11-05T01:40:33 +03:00",
+          "duration": 13
+        }
+      ]
+    },
+    {
+      "slices": [
+        {
+          "flight_number": 9081,
+          "origin_name": "Saranap",
+          "destination_name": "Dubois",
+          "departure_date_time_utc": "2019-07-29T04:21:55 +03:00",
+          "arrival_date_time_utc": "2018-04-27T02:53:45 +03:00",
+          "duration": 5.6
+        },
+        {
+          "flight_number": 2726,
+          "origin_name": "Marenisco",
+          "destination_name": "Dola",
+          "departure_date_time_utc": "2019-05-17T03:45:16 +03:00",
+          "arrival_date_time_utc": "2015-11-30T05:53:17 +02:00",
+          "duration": 3.7
+        }
+      ]
+    },
+    {
+      "slices": [
+        {
+          "flight_number": 9608,
+          "origin_name": "Farmington",
+          "destination_name": "Magnolia",
+          "departure_date_time_utc": "2016-11-09T07:07:28 +02:00",
+          "arrival_date_time_utc": "2016-01-26T10:32:22 +02:00",
+          "duration": 12.7
+        },
+        {
+          "flight_number": 8672,
+          "origin_name": "Rivereno",
+          "destination_name": "Oberlin",
+          "departure_date_time_utc": "2022-01-11T04:18:45 +03:00",
+          "arrival_date_time_utc": "2017-05-29T03:54:35 +03:00",
+          "duration": 13.7
+        }
+      ]
+    },
+    {
+      "slices": [
+        {
+          "flight_number": 8356,
+          "origin_name": "Breinigsville",
+          "destination_name": "Charco",
+          "departure_date_time_utc": "2022-03-24T08:47:57 +03:00",
+          "arrival_date_time_utc": "2015-06-29T04:16:07 +03:00",
+          "duration": 10.2
+        },
+        {
+          "flight_number": 4745,
+          "origin_name": "Kilbourne",
+          "destination_name": "Bradenville",
+          "departure_date_time_utc": "2019-01-25T04:54:24 +02:00",
+          "arrival_date_time_utc": "2019-07-05T04:30:39 +03:00",
+          "duration": 9.1
+        },
+        {
+          "flight_number": 7355,
+          "origin_name": "Veyo",
+          "destination_name": "Ladera",
+          "departure_date_time_utc": "2015-08-17T05:59:59 +03:00",
+          "arrival_date_time_utc": "2018-11-29T06:24:24 +02:00",
+          "duration": 12
+        }
+      ]
     }
   ]
 }

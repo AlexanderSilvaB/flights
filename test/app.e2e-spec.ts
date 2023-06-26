@@ -2,7 +2,7 @@
  * @Author: Alexander Silva Barbosa
  * @Date:   2023-04-19 09:05:07
  * @Last Modified by:   Alexander Silva Barbosa
- * @Last Modified time: 2023-04-20 01:36:56
+ * @Last Modified time: 2023-06-26 09:28:42
  */
 
 import { Test, TestingModule } from '@nestjs/testing';
@@ -26,7 +26,7 @@ describe('AppController (e2e)', () => {
     return request(app.getHttpServer())
       .get('/')
       .expect(200)
-      .expect('Hello PowerUs!');
+      .expect('Hello!');
   });
 
   it('/flights (GET)', () => {
@@ -52,7 +52,7 @@ describe('AppController (e2e)', () => {
   it('/flights/endpoint (DELETE) - Valid', () => {
     return request(app.getHttpServer())
       .delete('/flights/endpoint')
-      .send({'endpoint' : 'https://coding-challenge.powerus.de/flight/source2'})
+      .send({'endpoint' : 'https://raw.githubusercontent.com/AlexanderSilvaB/flights/master/data/source2.json'})
       .expect(200);
   });
 

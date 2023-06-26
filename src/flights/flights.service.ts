@@ -2,7 +2,7 @@
  * @Author: Alexander Silva Barbosa
  * @Date:   2023-04-19 09:15:30
  * @Last Modified by:   Alexander Silva Barbosa
- * @Last Modified time: 2023-04-20 15:33:35
+ * @Last Modified time: 2023-06-26 09:32:04
  */
 
 const URL = require("url").URL;
@@ -25,8 +25,8 @@ export class FlightsService {
     private readonly logger: Logger = new Logger(FlightsService.name);
 
     private readonly flightEndpoints: Set<string> = new Set<string>([
-        "https://coding-challenge.powerus.de/flight/source1",
-        "https://coding-challenge.powerus.de/flight/source2"
+        "https://raw.githubusercontent.com/AlexanderSilvaB/flights/master/data/source1.json",
+        "https://raw.githubusercontent.com/AlexanderSilvaB/flights/master/data/source2.json"
     ]);
 
     private shouldLoadFlightsOnRequest: boolean = false;

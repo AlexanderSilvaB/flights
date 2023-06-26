@@ -2,7 +2,7 @@
  * @Author: Alexander Silva Barbosa
  * @Date:   2023-04-19 09:14:34
  * @Last Modified by:   Alexander Silva Barbosa
- * @Last Modified time: 2023-04-20 01:16:11
+ * @Last Modified time: 2023-06-26 09:28:22
  */
 
 import { Test, TestingModule } from '@nestjs/testing';
@@ -71,7 +71,7 @@ describe('FlightsController', () => {
   describe('removeEndpointOk', () => {
     it('removes an valid endpoint', async () => {
       
-      const endpoint = {'endpoint' : 'https://coding-challenge.powerus.de/flight/source2'}
+      const endpoint = {'endpoint' : 'https://raw.githubusercontent.com/AlexanderSilvaB/flights/master/data/source2.json'}
 
       await expect(controller.removeEndpoint(endpoint)).resolves.toBe(endpoint);
     });
